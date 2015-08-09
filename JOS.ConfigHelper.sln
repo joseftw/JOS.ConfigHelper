@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55233201-93EF-4215-B3AE-C1FC7C1631E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58646BA4-D564-49D2-A826-5666A8153260}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JOS.ConfigHelper", "src\JOS.ConfigHelper\JOS.ConfigHelper.xproj", "{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F0C11E2-C323-4F54-AA33-C4A0AAEBB0EC} = {55233201-93EF-4215-B3AE-C1FC7C1631E9}
+	EndGlobalSection
+EndGlobal

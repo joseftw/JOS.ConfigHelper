@@ -1,0 +1,25 @@
+﻿{
+    "data": {
+        "baseConfigFilesLocation": "Configs\\Base",
+        "configFileVariables": {
+            "ADMIN_URL": "http://3.admin",
+            "API_URL": "http://dev.api.3.dk",
+            "LICENSE_FILE_PATH": "C:\\Utv\\Licenses\\EPi7.License",
+            "RAVENDB_URL": "http://localhost:8080",
+            "VPP_PATH": "C:\\Utv\\VPP\\3dk"
+        },
+        "databaseSettings": {
+            "sqlNamedInstance": "windows\\YODA",
+            "sqlServerDataBasePath": "C:\\Program Files\\Microsoft SQL Server\\MSSQL12.YODA\\MSSQL\\DATA",
+            "sqlServerLogsBasePath": "C:\\Program Files\\Microsoft SQL Server\\MSSQL12.YODA\\MSSQL\\DATA",
+            "templateDatabase": "alloy"
+        },
+        "projectRootFolder": "c:\\Utv\\ConfigFileTest",
+        "targetPaths": {
+            "Tre.Admin": "Tre.Admin\\[Configuration]\\{{COMPUTERNAME}}",
+            "Tre.Services.Api": "Tre.Services.Api\\[Configuration]\\{{COMPUTERNAME}}",
+            "Tre.Services.Bus": "Tre.Services.Bus\\[Configuration]\\{{COMPUTERNAME}}",
+            "Tre.Web": "Tre.Web\\[Configuration]\\{{COMPUTERNAME}}"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "authors": [ "Josef Ottosson" ],
+    "commands": {
+        "JOS.ConfigHelper": "JOS.ConfigHelper"
+    },
+    "dependencies": {
+        "Microsoft.CSharp": "4.0.0",
+        "Microsoft.Framework.Configuration.Binder": "1.0.0-beta6",
+        "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta6",
+        "Microsoft.Framework.Configuration.Json": "1.0.0-beta6",
+        "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6"
+    },
+    "description": "JOS.ConfigHelper",
+    "frameworks": {
+        "dnx452": {
+            "frameworkAssemblies": {
+            }
+        }
+    },
+    "licenseUrl": "",
+    "projectUrl": "",
+    "tags": [ "" ],
+    "version": "1.0.0-*"
+}
